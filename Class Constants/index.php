@@ -49,9 +49,9 @@ $person = new Person('AMINE LAMCHATAB');
 echo 'Person: ' . $person->getName() . '<br>';
 
 echo 'Intern Greeting: ' . Intern::GREETING . '<br>';
-$intern = new Intern('Alice Smith', 'P123456789');
+$intern = new Intern('LEO MESSI', 'P123456789');
 echo 'Intern: ' . $intern->getName() . ', CNE: ' . $intern->getCNE() . '<br>';
 
 echo 'City Greeting: ' . City::GREETING . '<br>';
-$city = new City('New York');
+$city = new City('TANGER');
 echo 'City: ' . $city->getName();

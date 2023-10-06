@@ -12,19 +12,19 @@ class Person {
 }
 
 class Intern extends Person {
-    private $company;
+    private $CNE;
 
-    public function __construct($name, $company) {
+    public function __construct($name, $CNE) {
         parent::__construct($name);
-        $this->company = $company;
+        $this->CNE= $CNE;
     }
 
-    public function getCompany() {
-        return $this->company;
+    public function getCNE() {
+        return $this->CNE;
     }
 
     public function introduce() {
-        return "Hello, I'm {$this->getName()}, an intern at {$this->getCompany()}.";
+        return "Hello, I'm {$this->getName()}, an intern my CNE : {$this->getCNE()}.";
     }
 }
 
@@ -41,11 +41,11 @@ class City {
 }
 
 // Usage
-$person = new Person('John Doe');
+$person = new Person('LAMCHATAB AMINE');
 echo 'Person: ' . $person->getName() . '<br>';
 
-$intern = new Intern('Alice Smith', 'Tech Co.');
+$intern = new Intern('LEO MESSI', 'P123456789');
 echo 'Intern: ' . $intern->introduce() . '<br>';
 
-$city = new City('New York');
+$city = new City('TANGER');
 echo 'City: ' . $city->getName();
