@@ -31,21 +31,21 @@ class Stagiaire extends Person
     }
 }
 
-class Ville
-{
-    private $name;
+// class Ville
+// {
+//     private $name;
 
 
-    public function __construct($name)
-    {
-        $this->name = $name;
-    }
+//     public function __construct($name)
+//     {
+//         $this->name = $name;
+//     }
 
-    public function getName()
-    {
-        return $this->name;
-    }
-}
+//     public function getName()
+//     {
+//         return $this->name;
+//     }
+// }
 
 // Usage
 $Personne = new Person('LAMCHATAB AMINE');
@@ -54,5 +54,5 @@ echo 'Personne: ' . $Personne->getName() . '<br>';
 $Stagiaire = new Stagiaire('LEO MESSI', 'P123456789');
 echo 'Stagiaire: ' . $Stagiaire->getName() . ', CNE: ' . $Stagiaire->getCNE() . '<br>';
 
-$Ville = new Ville('TANGER');
-echo 'Ville: ' . $Ville->getName();
+// $Ville = new Ville('TANGER');
+// echo 'Ville: ' . $Ville->getName();

@@ -28,19 +28,19 @@ class Intern extends Person {
     }
 }
 
-class City {
-    const GREETING = 'Welcome to the city!';
+// class City {
+//     const GREETING = 'Welcome to the city!';
 
-    private $name;
+//     private $name;
 
-    public function __construct($name) {
-        $this->name = $name;
-    }
+//     public function __construct($name) {
+//         $this->name = $name;
+//     }
 
-    public function getName() {
-        return $this->name;
-    }
-}
+//     public function getName() {
+//         return $this->name;
+//     }
+// }
 
 // Usage
 echo 'Person Greeting: ' . Person::GREETING . '<br>';
@@ -52,6 +52,6 @@ echo 'Intern Greeting: ' . Intern::GREETING . '<br>';
 $intern = new Intern('LEO MESSI', 'P123456789');
 echo 'Intern: ' . $intern->getName() . ', CNE: ' . $intern->getCNE() . '<br>';
 
-echo 'City Greeting: ' . City::GREETING . '<br>';
-$city = new City('TANGER');
-echo 'City: ' . $city->getName();
+// echo 'City Greeting: ' . City::GREETING . '<br>';
+// $city = new City('TANGER');
+// echo 'City: ' . $city->getName();
